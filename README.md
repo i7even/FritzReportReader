@@ -65,7 +65,9 @@ This beta does not yet have a publicly trusted Authenticode signature, so Window
 
 These instructions were checked against the official documentation for the **FRITZ!Box 5690 Pro**. The official firmware directory currently lists **FRITZ!OS 8.25** for this model. Labels can vary slightly with another FRITZ!OS version or interface language.
 
-#### Advanced report — recommended for a complete analysis
+#### Advanced report — required for the complete analysis
+
+FritzReport Reader is designed for **Advanced Support Information**. Do not select the basic **Support Information** option when you need the complete event, VPN, SIP and previous-state records: the standard report can omit those additional data.
 
 1. Connect the computer to the main FRITZ!Box home network; do not use guest access.
 2. Open `http://fritz.box` and sign in.
@@ -77,16 +79,11 @@ These instructions were checked against the official documentation for the **FRI
 8. Keep the original TXT name and format.
 9. In FritzReport Reader, choose **Open report A**. To compare two captures, open report B and choose **Compare A ↔ B**.
 
-#### Standard report — menu alternative
-
-1. In the FRITZ!Box interface, click **Help and Info** at the bottom left.
-2. At the bottom of the page, click **FRITZ!Box Support**.
-3. Select **Save Support Information**, then **Support Information**.
-4. Click **Save Support Information**, select **Save**, and keep the original TXT file.
+![Select Save Support Information and Advanced Support Information in the FRITZ!Box interface](docs/screenshots/03-advanced-support-information-en.png)
 
 When diagnosing a fault, create the report while or immediately after the issue and do not restart the FRITZ!Box before saving it. FRITZ! recommends a computer or Android device; an iPhone or iPad can save an incomplete file.
 
-Official sources: [advanced report](https://fritz.com/en/apps/knowledge-base/FRITZ-Box-5690-Pro/2190_Generating-advanced-support-data-for-the-FRITZ-Box), [standard report](https://fritz.com/en/apps/knowledge-base/FRITZ-Box-5690-Pro/3590_Saving-support-information-for-the-FRITZ-Box-as-a-file), [open the interface](https://fritz.com/en/apps/knowledge-base/FRITZ-Box-5690-Pro/1_Opening-the-FRITZ-Box-user-interface), and [official firmware](https://download.avm.de/fritzbox/fritzbox-5690-pro/other/fritz.os/).
+Official sources: [advanced report](https://fritz.com/en/apps/knowledge-base/FRITZ-Box-5690-Pro/2190_Generating-advanced-support-data-for-the-FRITZ-Box), [open the interface](https://fritz.com/en/apps/knowledge-base/FRITZ-Box-5690-Pro/1_Opening-the-FRITZ-Box-user-interface), and [official firmware](https://download.avm.de/fritzbox/fritzbox-5690-pro/other/fritz.os/).
 
 ### Essential privacy notice
 
@@ -138,7 +135,9 @@ Esta versão ainda não tem assinatura Authenticode pública. Por isso, o Window
 
 Estas instruções foram verificadas na documentação oficial específica da **FRITZ!Box 5690 Pro**. O diretório oficial da FRITZ! lista atualmente o **FRITZ!OS 8.25** para este modelo. Os nomes dos controlos ficam em inglês para coincidirem com a interface inglesa descrita pela FRITZ!; podem variar ligeiramente noutra versão ou idioma.
 
-#### Relatório avançado — recomendado para uma análise completa
+#### Relatório avançado — necessário para a análise completa
+
+O FritzReport Reader foi concebido para **Advanced Support Information**. Não selecione a opção básica **Support Information** quando precisa dos registos completos de eventos, VPN, SIP e estados anteriores: o relatório normal pode omitir esses dados adicionais.
 
 1. Ligue o computador à rede principal da FRITZ!Box; não utilize a rede de convidados.
 2. Abra `http://fritz.box` e inicie sessão.
@@ -150,16 +149,11 @@ Estas instruções foram verificadas na documentação oficial específica da **
 8. Guarde o TXT sem alterar o nome nem o formato.
 9. No FritzReport Reader, escolha **Abrir relatório A**. Para comparar, abra também o relatório B e escolha **Comparar A ↔ B**.
 
-#### Relatório normal — alternativa através do menu
-
-1. Na interface da FRITZ!Box, clique em **Help and Info**, no canto inferior esquerdo.
-2. No fundo da página, clique em **FRITZ!Box Support**.
-3. Selecione **Save Support Information** e depois **Support Information**.
-4. Clique em **Save Support Information**, escolha **Save** e guarde o TXT original.
+![Selecione Save Support Information e Advanced Support Information na interface da FRITZ!Box](docs/screenshots/03-advanced-support-information-en.png)
 
 Para analisar uma falha, crie o relatório durante ou logo após o problema e não reinicie a FRITZ!Box antes de o guardar. A FRITZ! recomenda um computador ou Android; num iPhone ou iPad o ficheiro pode ficar incompleto.
 
-Fontes oficiais: [relatório avançado](https://fritz.com/en/apps/knowledge-base/FRITZ-Box-5690-Pro/2190_Generating-advanced-support-data-for-the-FRITZ-Box), [relatório normal](https://fritz.com/en/apps/knowledge-base/FRITZ-Box-5690-Pro/3590_Saving-support-information-for-the-FRITZ-Box-as-a-file), [abrir a interface](https://fritz.com/en/apps/knowledge-base/FRITZ-Box-5690-Pro/1_Opening-the-FRITZ-Box-user-interface) e [firmware oficial](https://download.avm.de/fritzbox/fritzbox-5690-pro/other/fritz.os/).
+Fontes oficiais: [relatório avançado](https://fritz.com/en/apps/knowledge-base/FRITZ-Box-5690-Pro/2190_Generating-advanced-support-data-for-the-FRITZ-Box), [abrir a interface](https://fritz.com/en/apps/knowledge-base/FRITZ-Box-5690-Pro/1_Opening-the-FRITZ-Box-user-interface) e [firmware oficial](https://download.avm.de/fritzbox/fritzbox-5690-pro/other/fritz.os/).
 
 ### Privacidade essencial
 

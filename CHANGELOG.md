@@ -11,6 +11,7 @@
 - local processing with no telemetry or automatic data transfer;
 - fixed PayPal support page opened only after a user click;
 - fixed temperature parsing when one line contains critical minimum and maximum values;
+- added illustrated steps for saving **Advanced Support Information**, the report required for the complete analysis;
 - portable Windows x64 package with no installer.
 
 ## 0.6.1B — Português — 2026-08-30
@@ -24,4 +25,5 @@
 - processamento local sem telemetria ou envio automático;
 - botão PayPal fixo, aberto apenas por ação do utilizador;
 - correção da leitura de temperaturas quando a mesma linha contém mínimo e máximo críticos;
+- instruções ilustradas para guardar **Advanced Support Information**, o relatório necessário para a análise completa;
 - pacote Windows x64 portátil, sem instalador.
