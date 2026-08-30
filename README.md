@@ -13,6 +13,8 @@
   <img alt="Local processing" src="https://img.shields.io/badge/privacy-100%25_local-10b981?style=flat-square">
   <a href="https://www.virustotal.com/gui/file/f5a51376b96663b02321fbaef6bd6f7b61ba17f0600b58095b1ea416cd0115a1/detection"><img alt="VirusTotal result: 1 of 66 engines" src="https://img.shields.io/badge/VirusTotal-1%2F66-f59e0b?style=flat-square&amp;logo=virustotal&amp;logoColor=white"></a>
   <img alt="Contributors" src="https://img.shields.io/github/contributors/i7even/FritzReportReader?style=flat-square&amp;label=contributors&amp;color=2ea44f">
+  <a href="https://github.com/i7even/FritzReportReader/issues"><img alt="Open issues" src="https://img.shields.io/github/issues/i7even/FritzReportReader?style=flat-square&amp;label=issues&amp;color=2563eb"></a>
+  <a href="https://github.com/i7even/FritzReportReader/discussions"><img alt="GitHub Discussions" src="https://img.shields.io/github/discussions/i7even/FritzReportReader?style=flat-square&amp;label=discussions&amp;color=64748b"></a>
   <img alt="Rights: all rights reserved" src="https://img.shields.io/badge/rights-all_rights_reserved-f97316?style=flat-square">
 </p>
 
@@ -24,6 +26,8 @@ Leitor e comparador local para relatórios **Support Data** da FRITZ!Box.
 [**Download the executable / Transferir o executável**](https://github.com/i7even/FritzReportReader/releases/latest)
 · [Privacy / Privacidade](PRIVACY.md)
 · [Security / Segurança](SECURITY.md)
+· [Report a bug / Comunicar erro](https://github.com/i7even/FritzReportReader/issues/new)
+· [Questions and feedback / Perguntas e sugestões](https://github.com/i7even/FritzReportReader/discussions)
 · [Donate / Doar](https://www.paypal.com/donate/?hosted_button_id=REKGGB7F68J6W)
 
 > Source code is not included in this repository. The application is distributed as a proprietary binary through GitHub Releases.<br>
