@@ -4,6 +4,18 @@
 
 # FritzReport Reader
 
+<p align="center">
+  <img alt="Status: public beta" src="https://img.shields.io/badge/status-public_beta-2ea44f?style=flat-square">
+  <img alt="Platform: Windows x64" src="https://img.shields.io/badge/platform-Windows_x64-0078D4?style=flat-square&amp;logo=windows11&amp;logoColor=white">
+  <img alt="Version: v0.6.1B" src="https://img.shields.io/badge/version-v0.6.1B-2563eb?style=flat-square">
+  <img alt="Languages: EN-GB and PT-PT" src="https://img.shields.io/badge/languages-EN--GB_%7C_PT--PT-0891b2?style=flat-square">
+  <a href="https://github.com/i7even/FritzReportReader/releases/latest"><img alt="Download Windows EXE" src="https://img.shields.io/badge/download-Windows_EXE-16a34a?style=flat-square"></a>
+  <img alt="Local processing" src="https://img.shields.io/badge/privacy-100%25_local-10b981?style=flat-square">
+  <a href="https://www.virustotal.com/gui/file/f5a51376b96663b02321fbaef6bd6f7b61ba17f0600b58095b1ea416cd0115a1/detection"><img alt="VirusTotal result: 1 of 66 engines" src="https://img.shields.io/badge/VirusTotal-1%2F66-f59e0b?style=flat-square&amp;logo=virustotal&amp;logoColor=white"></a>
+  <img alt="Contributors" src="https://img.shields.io/github/contributors/i7even/FritzReportReader?style=flat-square&amp;label=contributors&amp;color=2ea44f">
+  <img alt="Rights: all rights reserved" src="https://img.shields.io/badge/rights-all_rights_reserved-f97316?style=flat-square">
+</p>
+
 Offline reader and comparator for FRITZ!Box **Support Data** reports.<br>
 Leitor e comparador local para relatórios **Support Data** da FRITZ!Box.
 
