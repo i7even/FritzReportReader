@@ -1,0 +1,50 @@
+##### TITLE Version 279.08.25
+##### TITLE SubVersion Demo A
+##### TITLE Produkt Fritz_Box_HW279
+##### TITLE Datum 2026-08-30 11:30:00 +02:00
+##### BEGIN SECTION Support_Data Synthetic demonstration report A
+##### BEGIN SECTION Events Events
+
+Events
+------
+30.08.26 11:28:40 Internet connection established successfully. IP address: 192.0.2.40, DNS server: 192.0.2.53, gateway: 192.0.2.1
+30.08.26 11:27:15 Wireless device registered (5 GHz), 866 Mbit/s, Demo-Laptop, IP 192.0.2.10, MAC 02:00:5E:10:00:01.
+30.08.26 11:25:00 IPv6 prefix was updated successfully. New prefix: 2001:db8:100::/56
+30.08.26 11:20:00 Login failed from IP address: 192.0.2.100.
+30.08.26 11:18:00 Login to the FRITZ!Box user interface from IP address 192.0.2.101 failed (incorrect session ID).
+30.08.26 11:10:00 No more wireless devices registered: Reducing power consumption (6 GHz).
+30.08.26 11:00:00 Clearing internet connection briefly to prevent the internet service provider from disconnecting you in the immediate future.
+##### END SECTION Events
+##### BEGIN SECTION runtime Runtime log
+2026-08-30 11:27:15.100 - ath1: STA 02:00:5E:10:00:01 IEEE 802.11: associated (aid 10)
+2026-08-30 11:26:30.200 - thermal: router_temperature=56.2 C
+2026-08-30 11:15:00.300 - worker [ERROR] synthetic operation failed
+##### END SECTION runtime
+##### BEGIN SECTION sensors Sensor readings
+soc.cpu.0.core.0:temp ui.main:temp:  +58.4°C  (crit = +120.0°C)
+soc.cpu.0.core.1:temp ui.main:temp:  +59.1°C  (crit = +120.0°C)
+board:temp:  +41.0°C  (crit min = -10.0°C, crit max = +95.0°C)
+machine:voltage:              12.03 V  (crit min = +10.80 V, crit max = +14.00 V)
+machine:power ui.main:power:  14.31 W  (crit = 0.00 W)
+machine:current:               1.19 A
+##### END SECTION sensors
+##### BEGIN SECTION vpn.sh IKE runtime log
+2026-08-30 10:52:00 ikev2:<<<< rcv ip:198.51.100.60 port:62000 nat_t:1 exch_type:IKE_SA_INIT ispi:abc rspi:def
+2026-08-30 10:52:00 ikev2:ikev2_exchange failed, state:IKEv2_STATE_FAILED
+2026-08-30 10:50:00 avmike:MyFRITZ!App (Demo phone): Phase 2 ready
+##### END SECTION vpn.sh
+##### BEGIN SECTION tr069 Technical Report 069
+2026-08-30 10:45:00.100 - CCRHandler::socket_receive_cb() 400 Bad Request
+2026-08-30 10:45:01.200 - CCRHandler::socket_receive_cb() 503 Service Unavailable
+##### END SECTION tr069
+##### BEGIN SECTION waccess Local web access
+192.168.50.20 - - [30/Aug/2026:10:40:12 +0200] "GET /overview HTTP/1.1" 200 65 "-" "Mozilla/5.0 (Windows NT 10.0)"
+##### END SECTION waccess
+##### BEGIN SECTION SOCKETS Synthetic socket table
+=== Sockets used by local::demo-service: ===
+IDX ; NAME/ADDR                         ; WHAT/STATE                    ; TYPE/FILE        ; PKTS
+1   ; 127.0.0.1:8188 demo webserver     ; listen                        ; inet,stream      ; 128
+2   ; [::]:500                           ; dgram                         ; inet6,dgram,udp  ; 42
+3   ; /var/tmp/demo-service.ctl          ; fd 3                          ; unix,dgram       ; 18
+##### END SECTION SOCKETS
+##### END SECTION Support_Data

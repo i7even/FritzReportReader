@@ -1,0 +1,15 @@
+# Public documentation repository: deny everything unless explicitly allowed.
+*
+!.gitignore
+!README.md
+!LICENSE.md
+!PRIVACY.md
+!SECURITY.md
+!THIRD-PARTY-NOTICES.md
+!CHANGELOG.md
+!RELEASE_NOTES.md
+!SHA256SUMS.txt
+!docs/
+!docs/**
+!samples/
+!samples/**

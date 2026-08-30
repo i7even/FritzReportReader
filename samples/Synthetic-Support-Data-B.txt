@@ -1,0 +1,49 @@
+##### TITLE Version 279.08.25
+##### TITLE SubVersion Demo B
+##### TITLE Produkt Fritz_Box_HW279
+##### TITLE Datum 2026-08-30 12:30:00 +02:00
+##### BEGIN SECTION Support_Data Synthetic demonstration report B
+##### BEGIN SECTION Events Events
+
+Events
+------
+30.08.26 12:28:40 Internet connection established successfully. IP address: 192.0.2.41, DNS server: 192.0.2.53, gateway: 192.0.2.1
+30.08.26 12:27:15 Wireless device registered (5 GHz), 1200 Mbit/s, Demo-Laptop, IP 192.0.2.10, MAC 02:00:5E:10:00:01.
+30.08.26 12:26:10 Wireless device registered (2.4 GHz), 144 Mbit/s, Demo-Sensor, IP 192.0.2.11, MAC 02:00:5E:10:00:02.
+30.08.26 12:25:00 IPv6 prefix was updated successfully. New prefix: 2001:db8:101::/56
+30.08.26 12:15:00 Wireless device registered: Reactivating Wi-Fi at full power (6 GHz).
+30.08.26 12:00:00 Internet connection established successfully. IP address: 192.0.2.40, DNS server: 192.0.2.53, gateway: 192.0.2.1
+##### END SECTION Events
+##### BEGIN SECTION runtime Runtime log
+2026-08-30 12:27:15.100 - ath1: STA 02:00:5E:10:00:01 IEEE 802.11: associated (aid 10)
+2026-08-30 12:26:10.100 - ath0: STA 02:00:5E:10:00:02 IEEE 802.11: associated (aid 11)
+2026-08-30 12:26:30.200 - thermal: router_temperature=57.8 C
+##### END SECTION runtime
+##### BEGIN SECTION sensors Sensor readings
+soc.cpu.0.core.0:temp ui.main:temp:  +60.2°C  (crit = +120.0°C)
+soc.cpu.0.core.1:temp ui.main:temp:  +60.8°C  (crit = +120.0°C)
+board:temp:  +42.2°C  (crit min = -10.0°C, crit max = +95.0°C)
+machine:voltage:              12.05 V  (crit min = +10.80 V, crit max = +14.00 V)
+machine:power ui.main:power:  15.02 W  (crit = 0.00 W)
+machine:current:               1.25 A
+##### END SECTION sensors
+##### BEGIN SECTION vpn.sh IKE runtime log
+2026-08-30 12:05:00 ikev2:<<<< rcv ip:198.51.100.61 port:62001 nat_t:1 exch_type:IKE_SA_INIT ispi:ghi rspi:jkl
+2026-08-30 12:05:00 ikev2:ikev2_exchange failed, state:IKEv2_STATE_FAILED
+##### END SECTION vpn.sh
+##### BEGIN SECTION tr069 Technical Report 069
+2026-08-30 11:55:00.100 - CCRHandler::socket_receive_cb() 400 Bad Request
+##### END SECTION tr069
+##### BEGIN SECTION waccess Local web access
+192.168.50.20 - - [30/Aug/2026:11:50:12 +0200] "GET /overview HTTP/1.1" 200 65 "-" "Mozilla/5.0 (Windows NT 10.0)"
+192.168.50.21 - local [30/Aug/2026:11:50:14 +0200] "POST /upnp/control/WANIPConn1 HTTP/1.1" 401 0 "-" "Demo client"
+##### END SECTION waccess
+##### BEGIN SECTION SOCKETS Synthetic socket table
+=== Sockets used by local::demo-service: ===
+IDX ; NAME/ADDR                         ; WHAT/STATE                    ; TYPE/FILE        ; PKTS
+1   ; 127.0.0.1:8188 demo webserver     ; listen                        ; inet,stream      ; 172
+2   ; [::]:500                           ; dgram                         ; inet6,dgram,udp  ; 55
+3   ; /var/tmp/demo-service.ctl          ; fd 3                          ; unix,dgram       ; 21
+4   ; 127.0.0.1:9000 metrics             ; connected to 127.0.0.1:9001   ; inet,stream      ; 9
+##### END SECTION SOCKETS
+##### END SECTION Support_Data
